@@ -13,5 +13,11 @@ peso = int(input("Escribe tu peso: "))
 estatura = float(input("Escribe tu estatura: "))
 
 #ejemplo de concateacion
-print(nombre + " tu edad es " + str(edad) + "años")
+print(nombre + " tienes"+ " " + str(edad) + " años" + "," + " tu peso es " + str(peso) + " kg " + "y tu estatura es de " + str(estatura) + "mts")
+
+#Asignamos la variable de imc
+imc = peso / estatura**2
+
+print("Tu IMC es de: " + str(imc))
+
 
