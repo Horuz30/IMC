@@ -1,3 +1,5 @@
+
+
 #Aqui llevaremos acabo el primer proyecto con python
 #tenemos que hacer unos inputs para un calculo del imc 
 #la formula del IMC es =  Peso / estatura2   -> Peso sobre estatura al cuadrado
@@ -8,12 +10,14 @@
 
 
 nombre = input("Escribe tu nombre: ")
-edad = int(input("Escribre tu edad: "))
+apellidoDad = input("Escribe tu apellido paterno: ")
+apellidoMom = input("Escribe tu apellido materno: ")
+edad = int(input("Escribe tu edad: "))
 peso = int(input("Escribe tu peso: "))
 estatura = float(input("Escribe tu estatura: "))
 
 #ejemplo de concateacion
-print(nombre + " tienes"+ " " + str(edad) + " años" + "," + " tu peso es " + str(peso) + " kg " + "y tu estatura es de " + str(estatura) + "mts")
+print("Hola, " + nombre + " " + apellidoDad + " " + apellidoMom + "." + " tienes"+ " " + str(edad) + " años" + "," + " tu peso es " + str(peso) + " kg " + "y tu estatura es de " + str(estatura) + "mts")
 
 #Asignamos la variable de imc
 imc = peso / estatura**2
