@@ -16,12 +16,17 @@ edad = int(input("Escribe tu edad: "))
 peso = int(input("Escribe tu peso: "))
 estatura = float(input("Escribe tu estatura: "))
 
-#ejemplo de concateacion
+
+
+#ejemplo de concateacion donde juntamos todos los datos recabados
 print("Hola, " + nombre + " " + apellidoDad + " " + apellidoMom + "." + " tienes"+ " " + str(edad) + " años" + "," + " tu peso es " + str(peso) + " kg " + "y tu estatura es de " + str(estatura) + "mts")
+
+if (edad < 18):
+    print("Usted es menor de edad")
+else:
+    print("Usted es mayor de edad")
 
 #Asignamos la variable de imc
 imc = peso / estatura**2
 
 print("Tu IMC es de: " + str(imc))
-
-
