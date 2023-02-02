@@ -7,6 +7,8 @@ Primer proyecto de python: Inputs que nos ayuden a calcular el IMC
 
 3-Ya que el usuario coloco esos datos, lo que hicimos fue concatenar todos los datos dentro de una frase, y asignarle un valor string a aquellos datos que por defecto entran de otra forma; los int, y los floats. 
 
+4- Tambien usamos un pequeño ejemplo de los condicionales para que nos dijera si la persona que esta rellenando los datos es o no mayor de edad. 
+
 #reflexiones 
 
 #dentro de este proyecto me gusto identificar como es que podemos hacer que el usuario inserte los datos que nosotros le pedimos, y como podemos hacer los cambios en cuanto a los tipos de datos.También puedo decir que ya pude hacer un repositorio en github, y como realizar los comandos basicos dentro de la consola de git para poder hacer cambio y realizarlos.
